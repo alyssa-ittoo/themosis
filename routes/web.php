@@ -3,6 +3,7 @@
 /**
  * Application routes.
  */
-Route::any('home', function() {
-    return view('blog.archive');
-});
+
+Route::any('/', 'HomeController@index');
+
+// Route::any('page', 'PageController@index');
